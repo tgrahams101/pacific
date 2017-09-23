@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Pacific | Home</title>
+  <title>Crunchtime | Home</title>
   <link rel="stylesheet" href="css/style.css">
   <!-- I've added a link for FontAwesome icons for you! -->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -13,23 +13,24 @@
   <header>
     <a href="#" class=hamburger><i class="fa fa-bars fa-4x" aria-hidden="true"></i></a>
     <nav id="nav_bar">
-      <a href="#pacific_pic">Home</a>
+      <a href="#" class="close">x</a>
+      <a href="body">Home</a>
       <a href="#menu">Menu</a>
       <a href="#location_section">Location</a>
-      <a href="#reservations">Reservations</a>
+      <a href="#reservations">Group Reservations</a>
       <a href="#carousel">Gallery</a>
     </nav>
     <section>
-      <h1> Pacific </h1>
-      <h3>Seafood Served Fresh Daily</h3>
+      <h1> Crunchtime </h1>
+      <h3>Sports bar & restaurant</h3>
     </section>
   </header>
   <main>
     <section id="menu_section">
       <h2 id="menu">Menu</h2>
       <ul>
-        <li ><a href="#brunch" class="underline" id="brunch_anchor">  Brunch </a> /</li>
-        <li> <a href=#dinner id="dinner_anchor"> Dinner </a>/</li>
+        <li ><a href="#brunch" class="underline" id="brunch_anchor">  Brunch </a> <span>/</span></li>
+        <li> <a href=#dinner id="dinner_anchor"> Dinner </a><span>/</span></li>
         <li> <a href="drinks" id="drinks_anchor">  Drinks</a> </li>
       </ul>
     </section>
@@ -178,10 +179,12 @@
       </section>
       <div id="modal">
         <form id="reservation_form">
+          <p>Request a Reservation</p>
           <input type="text" placeholder="Full Name">
           <input type="text" placeholder="Email Address">
           <textarea form ="reservation_form" name="taname" id="taid" wrap="soft" placeholder="When would you like to make a reservation?"></textarea>
-          <button type="submit"></button>
+          <button type="submit">Submit Request</button>
+          <i class="fa fa-times fa-2x" aria-hidden="true"></i>
         </form>
       </div>
 
@@ -197,7 +200,7 @@
           <nav>
             <a href="#menu"><h5>Menu</h5></a>
             <a href="#location_section"><h5>Location</h5></a>
-            <a href="#reservations"><h5>Reservations</h5></a>
+            <a href="#reservations"><h5>Group Reservations</h5></a>
             <a href="#carousel"><h5>Gallery</h5></a>
           </nav>
         </div>
